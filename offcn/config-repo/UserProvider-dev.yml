@@ -11,8 +11,3 @@ spring:
     show-sql: true
   application:
     name: UserProvider
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh,health,info
