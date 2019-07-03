@@ -1,5 +1,3 @@
-server:
-  port: 8001
 ProviderVersion: UserProvider0.0.4
 spring:
   datasource:
@@ -13,10 +11,6 @@ spring:
     show-sql: true
   application:
     name: UserProvider
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:10086/eureka,http://eureka2:10087/eureka
 management:
   endpoints:
     web:
