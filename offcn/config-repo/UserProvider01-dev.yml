@@ -1,5 +1,5 @@
 server:
-  port: 8008
+  port: 8001
 ProviderVersion: UserProvider0.0.4
 spring:
   datasource:
@@ -16,7 +16,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:10086/eureka,http://localhost:10087/eureka
+      defaultZone: http://eureka1:10086/eureka,http://eureka2:10087/eureka
 management:
   endpoints:
     web:
